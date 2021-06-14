@@ -1,0 +1,46 @@
+<div class="container-fluid">
+
+  <form [formGroup]="logUser" (ngSubmit)="login()">
+    <table>
+      <tr>
+        <td>
+          <h1>ADMIN LOG IN</h1>
+        </td>
+      </tr>
+      <tr>
+        <td>
+
+          <input placeholder="USER NAME OR EMAIL" matInput type="text" formControlName="username" id="username" required
+            minlength="4">
+          
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input placeholder="PASSWORD" matInput type="password" formControlName="password">
+        </td>
+      </tr>
+      <tr>
+        <!-- <td align="right">Forget Password</td> -->
+
+        <td align="right">
+          <a routerLink="/forgetPassword">
+            <div style="height:100%;width:100%">
+              Forget Password
+            </div>
+          </a>
+        </td>
+      </tr>
+
+      <tr>
+
+        <td>
+          <div class="divButtonStyle"><button id="Submit" class=" mat-raised-button buttonSave " type="submit">LOG
+              IN</button></div>
+        </td>
+
+      </tr>
+
+    </table>
+  </form>
+</div>

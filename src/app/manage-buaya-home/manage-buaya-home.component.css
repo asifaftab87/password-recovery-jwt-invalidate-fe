@@ -1,0 +1,83 @@
+
+.inputSearchBox{
+  width: 235px;
+  padding : 12px 20px;
+  background-color: lightgrey;
+  border-radius: 256px;
+  border: none;
+ }
+ ::-webkit-input-placeholder { /* Edge */
+  font-size: x-small;
+}
+
+:-ms-input-placeholder { /* Internet Explorer */
+  font-size: x-small;
+
+}
+
+::placeholder {
+  font-size: x-small;
+
+}
+  .toggle-button {
+    margin: 0 auto;
+  } 
+  .fieldOne
+  {
+    float: left;
+  }
+  .fieldTwo{
+    float: left;
+    margin-top: 45px;
+    margin-left: 70px;
+  }
+  .fieldThree{
+float: left;
+  }
+   .fieldFour{
+    float: left;
+    margin-left: 20px;
+    margin-top: 56px;
+    font-weight: 100;
+    
+    
+  } 
+
+  .textEdit{
+    font-size: x-small;
+  }
+
+  .tableWithData{
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .hr_long{
+    margin-left: 0px;
+    margin-top: 80px;
+    margin-bottom: 0px; 
+  }
+  .greenColour{
+    color: darkgreen;
+  }
+  .greenColourSecond{
+    color: darkgreen;
+
+    font-weight: 400;
+    font-size: x-small;
+      }
+    
+  .editLink{
+     position: absolute;
+     left: 240px;
+  }
+  .slideButton{
+    
+    position: absolute;
+    left: 82%;
+
+  }
+  .iconStyle{
+    color: darkgreen;
+    font-weight: bolder;
+  }

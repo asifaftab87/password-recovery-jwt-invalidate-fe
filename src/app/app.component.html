@@ -1,0 +1,13 @@
+<mat-sidenav-container id="myZoom">
+    <mat-sidenav opened mode="side" *ngIf='_authenticationService.isAuthenticated()'>
+        <mat-nav-list>
+            <a class="no-underline" *ngIf='_authenticationService.isAuthenticated()' mat-list-item
+                routerLink="/manageBuaya" routerLinkActive="active"><b> WELCOME </b></a>
+            <a class="no-underline" *ngIf='_authenticationService.isAuthenticated()' (click)="logout()" mat-list-item
+                routerLink=""><b> LOGOUT </b></a>
+        </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>
