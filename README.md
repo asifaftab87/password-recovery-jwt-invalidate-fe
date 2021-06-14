@@ -1,5 +1,10 @@
 # BuayaFrontEnd
 
+to start server us this command
+ng serve --proxy-config proxy.conf.json
+
+proxy.conf.json is a file which help us to avoid cors problem
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.25.
 
 ## Development server
